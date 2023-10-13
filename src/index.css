@@ -30,6 +30,20 @@ header ul.nav li:hover{
   opacity:0.5;
   transition: opacity 500 ms ease;
 }
+
+header .shop-cart-button{
+  float: right;
+  cursor:pointer;
+  transition:color 500 ease;
+
+}
+
+header .shop-cart-button:hover,header .shop-cart-button.active{
+  color:aqua;
+}
+
+
+
 header .presentation{
   margin:50px 0;
   background: url("./images/electronika.jpg") ;
@@ -62,7 +76,61 @@ header .presentation::before{
   font-weight:500;
 }
 
+main{
+  display:flex;
+  width:100%;
+  justify-content: space-between;
+  flex-wrap:wrap;
+}
+main .item{
+  width:30%;
+  margin-bottom:50px;
+  background: rgb(0, 140, 255) ;
+  border-radius:10px ;
+  overflow:hidden;
+  position:relative;
+}
+main .item img{
+  width: 100%;
+  border-radius:10px 10px 0 0;
+  transition: transform 500ms ease;
+}
+
+main .item img:hover{
+  transform: scale(1.05);
+
+}
+main h2,
+main p,
+main b{
+  margin: 10px 20px;
+  color: rgb(21, 255, 0);
+  padding-bottom: 25px;
+}
+
+main b{
+  color: red;
+}
+main .add-to-cart{
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  background: white;
+  width: 35px;
+  height:35px;
+  text-align: center;
+  line-height: 35px;
+  color:green;
+  border-radius: 50%;
+  cursor:pointer;
+  font-weight:500;
+  transition: transform 500ms ease;
+}
+main .add-to-cart:hover{
+  transform: scale(1.05) translateY(-5px);
+}
 footer{
   text-align: center;
   margin-top:10px;
 }
+
