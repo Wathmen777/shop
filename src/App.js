@@ -9,7 +9,7 @@ export default function App() {
       id:1,
       title:"Ноутбук Apple",
       img:'apple.jpg',
-      desc:'"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
+      desc:'Ноутбук Apple MacBook Air − это тонкий и легкий аппарат с диагональю экрана 13.3", который функционирует на базе macOS. Он выполнен в металлическом корпусе классической конструкции. Аппаратная составляющая представлена процессором Apple M1 с восьмиядерной конфигурацией, модулем памяти DDR4 объемом 8 ГБ, что позволяет системе реагировать на действия пользователя в 3.5 раза быстрее. К тому же, аппарат обладает высокой производительностью, сочетающейся с улучшенной энергоэффективностью.',
       category:'Apple',
       price:'1000'
     },
@@ -17,7 +17,7 @@ export default function App() {
       id:2,
       title:"Ноутбук Intel ",
       img:'intel.jpg',
-      desc:'"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
+      desc:'Ноутбук Irbis NB276 – надежный помощник с востребованным набором функций для повседневной работы или учебы. Он отличается компактными размерами и весом 1.56 кг. Мобильный компьютер получил в оснащение процессор Intel Pentium J3710 и 4 ГБ памяти ОЗУ. Под хранение пользовательских файлов предлагается накопитель SSD емкостью 128 ГБ.',
       category:'Intel',
       price:'1000'
     },
@@ -25,7 +25,7 @@ export default function App() {
       id:3,
       title:"Ноутбук MSI",
       img:'msi.jpg',
-      desc:'"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
+      desc:'Позвольте себе насладиться всеми преимуществами работы с использованием ультрабука MSI Modern 14 C12M-233XRU. Процессор Intel Core i3-1215U с 6 ядрами и графическое ядро Intel UHD Graphics возьмут ответственность за быстрый запуск файлов и приложений, исключая малейшие промедления. Оперативная связь с коллегами и участие в совещаниях онлайн-формата теперь возможно благодаря веб-камере, микрофону и модулю WI-FI 6 (802.11ax).',
       category:'MSI',
       price:'1000'
     },
@@ -33,7 +33,7 @@ export default function App() {
       id:4,
       title:"Ноутбук Lenovo",
       img:'lenovo.jpg',
-      desc:'"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
+      desc:'Ноутбук Lenovo IdeaPad 3 14ADA05 создан для работы и учебы. Он оформлен в классической расцветке и обладает востребованным набором функций. На экране 14 дюймов формата TN FullHD с антибликовой поверхностью отображается четкая картинка. Клавиатура и тапчад гарантируют удобство работы в программах.',
       category:'Lenovo',
       price:'1000'
     },
@@ -41,7 +41,7 @@ export default function App() {
       id:5,
       title:"Жесткий диск Seagete",
       img:'seaget.jpg',
-      desc:'"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
+      desc:'Жесткий диск Seagate SkyHawk [ST1000VX005] разработан специально для требовательных систем, такие как – сетевые видеорегистраторы. Он способен функционировать в режиме круглосуточной нагрузки и обеспечивает стабильность на протяжении длительной эксплуатации. Данная модель обладает емкостью 1 ТБ и подключается к оборудованию посредством интерфейса SATA III',
       category:'Seagete',
       price:'1000'
     },
@@ -49,7 +49,7 @@ export default function App() {
       id:6,
       title:"Жесткий диск Hitachi",
       img:'hitachi.jpg',
-      desc:'"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
+      desc:'Универсальный жесткий диск HHitachi Travelstar 7K1000 HTS721010A9E630 обладает форм-фактором 2.5 дюйма и является вместительным внутренним накопителем. Может устанавливаться в ноутбуках, портативных ПК и игровых консолях. 1 ТБ памяти позволяет хранить множество файлов, игровых программ и приложений.',
       category:'Hitachi',
       price:'1000'
     },
@@ -65,7 +65,7 @@ export default function App() {
       id:8,
       title:"Оперативная память Atermiter ",
       img:'atermiter.jpeg',
-      desc:'"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
+      desc:'Память DDR3 8 Gb PC1600 (PC3-12800) Atermiter это удобная и недорогая составляющая компьютера, которую вы можете приобрести в нашем магазине. Объем в 8192 Мб позволит вам дополнить оснащение вашего системного блока.',
       category:'Atermaiter',
       price:'1000'
     },
