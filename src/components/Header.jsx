@@ -1,6 +1,7 @@
 import React, {useState} from "react";
-import {BsFillTrash3Fill} from "react-icons/bs"
-export default function Header(){
+import {BsFillTrash3Fill} from "react-icons/bs";
+import Order from "./Order";
+export default function Header(props){
     let[cartOpen,setCartOpen]=useState(false);
 
     return(
@@ -9,7 +10,7 @@ export default function Header(){
                 <span className="logo">
                     Центр Электроники
                 </span>
-            </div>
+            
             <ul className="nav">
                 <li>Про нас</li>
                 <li>Контакты</li>
@@ -17,6 +18,14 @@ export default function Header(){
                 <li>Скачать прайс</li>
             </ul>
             <BsFillTrash3Fill onClick={()=>setCartOpen(cartOpen=!cartOpen)} className={`shop-cart-button ${cartOpen && `active`}`}/>
+            {cartOpen && (
+                <div className="shop-cart">
+                    {props.orders.map(el => (
+                        <Order key={el.id} item={el}/>
+                    ))}
+                </div>
+            )}
+            </div>
             <div className="presentation">
                 
             </div>

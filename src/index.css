@@ -13,6 +13,11 @@ body{
   width:1280px;
   margin:50px auto;
 }
+
+header{
+  position: relative;
+}
+
 header .logo{
   font-weight: 500;
   font-size: 20px;
@@ -34,7 +39,7 @@ header ul.nav li:hover{
 header .shop-cart-button{
   float: right;
   cursor:pointer;
-  transition:color 500 ease;
+  transition:color,transform 500 ease;
 
 }
 
@@ -42,7 +47,42 @@ header .shop-cart-button:hover,header .shop-cart-button.active{
   color:aqua;
 }
 
+header .shop-cart{
+  position:absolute;
+  top:30px;
+  right:0;
+  width: 450px;
+  background: rgb(0, 147, 205);
+  -webkit-box-shadow: 22px 22px 3px -16px rgba(80, 48, 34, 1);
+-moz-box-shadow: 22px 22px 3px -16px rgba(80, 48, 34, 1);
+box-shadow: 22px 22px 3px -16px rgba(80, 48, 34, 1);
+z-index: 1000;
+transform: scale(1.05);
+padding:20px;
+padding-bottom: 0;
+}
 
+header .shop-cart .item{
+  width: 100%;
+  float:left;
+  margin-bottom: 20px;
+}
+
+header .shop-cart .item img{
+  width: 70px;
+  float: left;
+  margin-right:20px;
+}
+
+header .shop-cart .item h2{
+  font-size: 20px;
+  margin-bottom:10px;
+}
+
+header .shop-cart .item b{
+  color:aqua;
+  font-weight: 500;
+}
 
 header .presentation{
   margin:50px 0;
