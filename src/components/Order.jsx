@@ -1,4 +1,5 @@
 import React from "react";
+import {BsFillTrash3Fill} from "react-icons/bs";
 
 export default function Order(props){
     return(
@@ -6,6 +7,7 @@ export default function Order(props){
             <img src={"./images/"+props.item.img} alt=""/>
             <h2>{props.item.title}</h2>
             <b>{props.item.price}</b>
+            <BsFillTrash3Fill className="delete-icon" onClick={()=>props.onDelete(props.item.id)}/>
         </div>
     );
 }
