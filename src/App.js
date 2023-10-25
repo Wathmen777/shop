@@ -19,13 +19,13 @@ export default function App() {
     .then((response)=>{
       setItems(response.data);
       chooseCategory("all");
-      setCurrentItems(response.data)
+      setCurrentItems(response.data);
     })
-    .catch((err)=>{
+    .catch((error)=>{
       console.error("Ошибка при загрузке данных",error);
     });
     
-  }, [items]);
+  }, []);
 
   
 
